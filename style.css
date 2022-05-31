@@ -1,4 +1,4 @@
-body {background-color:black;font-family:arial;color:white}
+body {background-color:black;font-family:arial;color:white; text-align: center;}
 h1{color:grey;font-family:verdana}
 .maindiv{
     background-color: white;
@@ -7,6 +7,7 @@ h1{color:grey;font-family:verdana}
     padding: 20px;
     border-radius: 25px;
     align: center;
+    display: inline-block;
 }
 #result b{
     background-color: yellow;
