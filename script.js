@@ -19,11 +19,4 @@ function updateRate()
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
-        
-function validateNumber(){
-    var principal = document.getElementById("principal").value;
-    if(principal<=0 && principal.length>0){
-        alert("Enter a positive number");
-        document.getElementById("principal").focus();
-    }
-}
+       
